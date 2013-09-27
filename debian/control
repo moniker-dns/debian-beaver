@@ -1,0 +1,40 @@
+Source: beaver
+Section: python
+Priority: extra
+Maintainer: Kiall Mac Innes <kiall@hp.com>
+Build-Depends:
+    debhelper (>= 8.0.0),
+    python | python-all | python-dev | python-all-dev
+Build-Depends-Indep:
+    python-setuptools
+Standards-Version: 3.9.4
+Homepage: https://github.com/josegonzalez/beaver
+
+Package: beaver
+Architecture: all
+Depends:
+    python-beaver (= ${binary:Version}),
+    ${misc:Depends}
+Description: Beaver
+ Beaver is a python daemon that munches on logs and sends their contents
+ to logstash
+
+Package: python-beaver
+Architecture: all
+Depends:
+    python | python-all,
+    python-simplejson,
+    python-daemon,
+    python-glob2,
+    python-argparse,
+    python-conf-d,
+    ${misc:Depends}
+Suggests:
+    python-pika,
+    python-redis,
+    python-zmq
+Provides:
+    ${python:Provides}
+Description: Beaver Python Libraries
+ Beaver is a python daemon that munches on logs and sends their contents
+ to logstash

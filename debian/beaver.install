@@ -1,0 +1,2 @@
+usr/bin/beaver
+debian/beaver.conf.sample usr/share/beaver

@@ -1,0 +1,8 @@
+description "Beaver"
+
+start on runlevel [2345]
+stop on runlevel [!2345]
+
+respawn
+
+exec /usr/bin/beaver -c /etc/beaver.conf
