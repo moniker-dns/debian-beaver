@@ -28,6 +28,7 @@ Depends:
     python-glob2,
     python-argparse,
     python-conf-d,
+    msgpack-python,
     ${misc:Depends}
 Suggests:
     python-pika,
