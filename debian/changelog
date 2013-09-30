@@ -1,3 +1,9 @@
+beaver (30-3) precise; urgency=high
+
+  * Suggest python-redis 2.4.11 or higher
+
+ -- Kiall Mac Innes <kiall@hp.com>  Mon, 30 Sep 2013 22:29:02 +0100
+
 beaver (30-2) precise; urgency=high
 
   * Add msgpack-python dep

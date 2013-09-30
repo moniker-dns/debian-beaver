@@ -32,7 +32,7 @@ Depends:
     ${misc:Depends}
 Suggests:
     python-pika,
-    python-redis,
+    python-redis (>= 2.4.11),
     python-zmq
 Provides:
     ${python:Provides}
