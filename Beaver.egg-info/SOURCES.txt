@@ -1,7 +1,6 @@
 CHANGES.rst
 LICENSE.txt
 MANIFEST.in
-README
 README.rst
 setup.py
 Beaver.egg-info/PKG-INFO
