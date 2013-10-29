@@ -1,3 +1,9 @@
+beaver (30.33-1) precise; urgency=high
+
+  * Update to Beaver git rev 0013ab6 (33 commits past the v30 tag)
+
+ -- Kiall Mac Innes <kiall@hp.com>  Tue, 29 Oct 2013 12:38:20 +0000
+
 beaver (30-3) precise; urgency=high
 
   * Suggest python-redis 2.4.11 or higher
